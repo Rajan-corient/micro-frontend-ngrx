@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/shared/data-access/master-data",
+  "sourceRoot": "libs/shared/data-access/master-data/src",
+  "prefix": "ep-monorepo",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/shared/data-access/master-data"],
+      "options": {
+        "jestConfig": "libs/shared/data-access/master-data/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/shared/data-access/master-data/src/**/*.ts",
+          "libs/shared/data-access/master-data/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

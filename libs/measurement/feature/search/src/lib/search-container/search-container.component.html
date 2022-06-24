@@ -1,0 +1,13 @@
+<ep-monorepo-mmb-search
+[assetGroups]="masterDataFacade.assetGroupOptions$ | async" 
+[products]="masterDataFacade.products$ | async"
+[ticketTypes]="mmbSearch.ticketTypes$ | async"
+[meterOwners]="mmbSearch.meterOwners$ | async"
+[flowComputers]="mmbSearch.flowComputers$ | async"
+[ticketNumbers]="mmbSearch.ticketNumbers$ | async"
+[meterLocations]="mmbSearch.meterLocations$ | async"
+[meterNames]="mmbSearch.meterNames$ | async"
+[ticketStatus]="mmbSearch.ticketStatus$ | async"
+(emitMultiselect)="getMultiselect($event)">
+</ep-monorepo-mmb-search>
+<!-- <ep-monorepo-search-result></ep-monorepo-search-result> -->

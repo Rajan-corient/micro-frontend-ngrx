@@ -1,0 +1,21 @@
+::ng-deep {
+    .p-card-content {
+        .row {
+            .col-sm {
+                .dew-input {
+                    p-multiselect {
+                        .p-multiselect {
+                            width: 20rem;
+                        }
+                    }
+                    p-calendar {
+                        .p-calendar {
+                            width: 20rem;
+                        }
+                    }
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+}
